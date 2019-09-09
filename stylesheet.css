@@ -1,76 +1,91 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
 body {
-    width:95%;
-    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 0 100px;
 }
 
-ul {
-    list-style-type: none;
-    background-color: grey;
+#navcontainer ul li {
+    display: inline;
+    padding-left: 20px;
 }
 
-li {
+#navcontainer ul {
+    margin: 0px;
+    padding-left: 10px;
+    padding-top: 20px;
     list-style-type: none;
+}
+
+.header-text {
+    font-family: Arial;
     color: black;
     text-decoration: none;
-    display: inline;
-    
+    opacity: .75;
+    font-size: 14px;
 }
 
-li a:hover {
-    background-color: #555;
-    color: white;
-  }
+.header-right {
+    margin-right: 25px;
+    float: right;
+}
 
-  .about
-  {
-      float: left;
-  }
-
-  .store {
-      float: left;
-      padding-left: 10px;
-  }
-
-  .gmail {
-      float: right;
-      padding-left: 10px;
-      padding-right: 20px;
-
-  }
-
-  .images {
-      float: right;
-      padding-left: 10px;
-
-  }
-
-  .apps {
-      float: right;
-      padding-left: 10px;
-
-  }
-
-  .user {
-      float: right;
-      padding-left: 10px;
-  }
-
-.google {
+.center {
     text-align: center;
-    position: relative;
-
+    margin-top: 150px;
 }
 
-.form {
-    text-align: center; 
-    position: relative;
+.logo {
+    height: 95px;
+    margin-bottom: 25px;
+}
+
+.searchbar {
+    width: 505px;
+    height: 30px;
+}
+
+.button-margin {
+    margin-top: 25px;
 }
 
 .button {
-    display: block;
+    background-color: #efefef;
+    border: none;
+    color: #666;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial;
+    font-weight: 700;
+    margin-left: 2px;
+    margin-right: 2px;
+
+#navcontainer ul {
+    list-style-type: none;
+}    
+
+.footer-text {
+    font-family: Arial;
+    color: black;
+    text-decoration: none;
+    opacity: .6;
+    font-size: 14px;
+    padding-bottom: 20px;
 }
 
-
+.footer-margin {
+    height: 60px;
+    padding-left: 0px;
+    position: absolute;
+    background-color: #efefef;
+    border-top: 1px solid #e5e5e5;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
 
 /*
 * { background-color: rgba(255,0,0,.2); }
