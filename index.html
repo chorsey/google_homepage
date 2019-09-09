@@ -8,38 +8,41 @@
         <link rel="stylesheet" type="text/css" href="stylesheet.css">
     </head>
     <body>
-        <nav>
+
+        <!-- Left Nav -->
+        <header class="navcontainer">
             <ul>
-                 <li class="about"><a href="default.asp">About</a></li>
-                 <li class="store"><a href="news.asp">Store</a></li>
-                 <li class="gmail"><a href="contact.asp">Gmail</a></li>
-                 <li class="images"><a href="about.asp">Images</a></li>
-                 <li class="apps"><a href="about.asp">Apps</a></li>
-                 <li class="user"><a href="about.asp">User</a></li>
-            </ul> 
-        </nav>
-        
-            <div class="google">
-                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" />
-            </div>
-                
-            <div class="form">
-                <form method="POST">       
-                    <input type="text" name="search">
-                    <input class="button s" type="submit" name="gsearch" value="Google Search">
-                    <input class="button l" type="submit" name="lucky" value="I'm Feeling Lucky">
-                </form>
-            </div>
-                </div>
-
-                <footer>
-                    
-                </footer>                 
-
-            </main>
+                <li><a class="header-text" href="#">About</a></li> 
+                <li><a class="header-text" href="#">Store</a></li> 
+            <!-- Right Nav-->
+                <li><a class="header-text header-right" href="#">User</a></li> 
+                <li><a class="header-text header-right" href="#">Apps</a></li> 
+                <li><a class="header-text header-right" href="#">Images</a></li> 
+                <li><a class="header-text header-right" href="#">Gmail</a></li> 
+            </ul>
+        </header>
+        <!-- Google Logo -->
+        <div class="center">        
+            <img class="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+       <!-- Form -->
+            <form>
+                <input class="searchbar" type="text" name="searchbar">
+            </form>
+        <div class="button-margin">
+            <button class="button" type="button"> Google Search </button>
+            <button class="button" type="button">I'm Feeling Lucky</button>
         </div>
 
-        </main>
-      </main>  
+       <!-- Footer -->
+       <footer id="navcontainer" class="footer-margin">
+           <ul>
+                <li><a class="footer-text" href="#">Advertising</a></li>
+                <li><a class="footer-text" href="#">Business</a></li>
+                <li><a class="footer-text header-right" href="#">Settings</a></li>
+                <li><a class="footer-text header-right" href="#">Terms</a></li>
+                <li><a class="footer-text header-right" href="#">Privacy</a></li>
+            </ul>
+       </footer>
+
     </body>
 </html>
